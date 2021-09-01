@@ -9,36 +9,44 @@ print("""
 
 def print_Root(root_1,root_2,coeff_a,coeff_b,coeff_c):
 
-    if coeff_b > 0:
+    if coeff_b >= 0 and coeff_c >= 0:
         print("The roots of the equation;\n"
         f"{coeff_a} x^2 + {coeff_b} x + {coeff_c} = 0 is:\n\n ")
-
-        print(f"Root 1: {root_1}\nRoot 2: {root_2}")
-
+    elif coeff_b >= 0 and coeff_c < 0:
+        print("The roots of the equation;\n"
+        f"{coeff_a} x^2 + {coeff_b} x - {coeff_c} = 0 is:\n\n ")
+    elif coeff_b < 0 and coeff_c < 0:
+        coeff_b = -coeff_b
+        print("The roots of the equation;\n"
+        f"{coeff_a} x^2 - {coeff_b} x - {coeff_c} = 0 is:\n\n ")
     else:
         coeff_b = -coeff_b
         print("The roots of the equation;\n"
         f"{coeff_a} x^2 - {coeff_b} x + {coeff_c} = 0 is:\n\n ")
 
-        print(f"Root 1: {root_1}\nRoot 2: {root_2}")
-        
+    print(f"Root 1: {root_1}\nRoot 2: {root_2}")
+
 
 def print_Imaginary(real_Part,imaginary_Part,coeff_a,coeff_b,coeff_c):
 
-    if coeff_b > 0:
+    if coeff_b >= 0 and coeff_c >= 0:
         print("The roots of the equation;\n"
         f"{coeff_a} x^2 + {coeff_b} x + {coeff_c} = 0 is:\n\n ")
-
-        print(f"Root 1: {real_Part} + i{imaginary_Part}\n")
-        print(f"Root 2: {real_Part} - i{imaginary_Part}\n")
-
+    elif coeff_b >= 0 and coeff_c < 0:
+        print("The roots of the equation;\n"
+        f"{coeff_a} x^2 + {coeff_b} x - {coeff_c} = 0 is:\n\n ")
+    elif coeff_b < 0 and coeff_c < 0:
+        coeff_b = -coeff_b
+        print("The roots of the equation;\n"
+        f"{coeff_a} x^2 - {coeff_b} x - {coeff_c} = 0 is:\n\n ")
     else:
         coeff_b = -coeff_b
         print("The roots of the equation;\n"
-        f"{coeff_a} x^2 + {coeff_b} x + {coeff_c} = 0 is:\n\n ")
+        f"{coeff_a} x^2 - {coeff_b} x + {coeff_c} = 0 is:\n\n ")
 
-        print(f"Root 1: {real_Part} + i {imaginary_Part}\n")
-        print(f"Root 2: {real_Part} - i {imaginary_Part}\n")
+
+    print(f"Root 1: {real_Part} + i {imaginary_Part}\n")
+    print(f"Root 2: {real_Part} - i {imaginary_Part}\n")
 
 
 determinant = coeff_b**2 - 4 * coeff_a * coeff_c
