@@ -8,7 +8,7 @@ Here, a , b and c are constants
 Quadratic Equation when represted graphically gives us a parabola.
 
 ### About Project 
-I wanted to try-out a mathematical project using Python and thought of this one. I'm a novice so, don't expect this project to be something big and intuitive. 
+I wanted to try-out a mathematical project using Python and thought of this one. I'm a novice so, keep yourself off from high expectation. 
 
 
 
