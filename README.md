@@ -1,8 +1,8 @@
 # Quadratic Equation Solver
 Hey there, Looking for something to help you with solving the quadratic equation? Here's one I've created -give it a try.
 ## What is a Quadratic Equation?
-    Any equation having *highest degree as 2* is a quadratic equation.
-Standard form of *quadratic equation* is;
+    Any equation having highest degree as 2 is a quadratic equation.
+Standard form of __*quadratic equation*__ is;
 ax^2 + bx + c = 0
 Here, a , b and c are constants 
 Quadratic Equation when represted graphically gives us a parabola.
