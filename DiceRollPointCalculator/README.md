@@ -18,7 +18,7 @@ Points are then calculated based on the outcomes.
 | 13th Dice Outcome | 14th Dice Outcome | 15th Dice Outcome | 16th Dice Outcome |
 
 ## **Rules for points calculation**
-------------------------------------
+
  
 *	If all four corner's outcome are either all even or all odd, 20 points are added.
 *	If a row's outcome are either all even or all odd, 20 points are added.
