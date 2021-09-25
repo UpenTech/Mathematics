@@ -8,7 +8,7 @@ A set of dices consisting of **4 dices** are rolled **4 times** i.e. alltogether
 The outcome of dices are then represented by **4x4 matrix** were each row denotes a set.
 Points are then calculated based on the outcomes.
 
-## Representation in 4*4 Matrix
+## Representation in 4x4 Matrix
 
 | Dice Outcome | Dice Outcome | Dice Outcome | Dice Outcome |
 |------------------|------------------|------------------|------------------|
@@ -27,7 +27,7 @@ Points are then calculated based on the outcomes.
 
 ## An Example
 
-Following are the outcomes of rolling, represnted by 4x4 matrix
+Following are the outcomes after the rolling, represnted by 4x4 matrix
 
 |Outcomes|Outcomes|Outcomes|Outcomes|
 |:------:|:------:|:------:|:------:|
@@ -42,6 +42,6 @@ Following are the outcomes of rolling, represnted by 4x4 matrix
 _______________
 
 I'm trying to keep my hands dirty with `python` and this is another one of my creepy program.
-The code is open to any amemdment ( though I hardly dought someone is going to).
+The code is open to any amemdment ( though I hardly think someone is going to).
 So, yea I would love to implement additional features if someone has some good ideas.
  
